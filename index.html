@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Uma apresentação pessoal de João Victor, seus hobbies e destinos de viagem.">
+  <title>João Victor | Minha página</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="pagina">
+    <header class="cabecalho">
+      <p class="sobretitulo">UM POUCO SOBRE MIM</p>
+      <h1>Olá, eu sou João Victor!</h1>
+      <p class="introducao">Estudante, curioso por tecnologia e sempre pronto para descobrir algo novo.</p>
+    </header>
+
+    <section class="cartao sobre" aria-labelledby="titulo-sobre">
+      <div>
+        <p class="rotulo">PRAZER EM CONHECER</p>
+        <h2 id="titulo-sobre">Quem sou eu</h2>
+        <p class="biografia">Meu nome é João Victor, tenho <strong>26</strong> anos e moro em <strong>Paço do Lumiar</strong>. Gosto de aprender sobre tecnologia, conhecer lugares diferentes e aproveitar meu tempo livre com atividades que me inspiram. Acredito que cada novo interesse é uma oportunidade de crescer e viver boas experiências.</p>
+        <button id="botao-mensagem" type="button">Clique para ver uma mensagem!</button>
+        <p id="mensagem" class="mensagem" aria-live="polite"></p>
+      </div>
+      <div class="selo" aria-hidden="true">JV<span>✦</span></div>
+    </section>
+
+    <section class="secao" aria-labelledby="titulo-hobbies">
+      <div class="cabecalho-secao">
+        <p class="rotulo">TEMPO LIVRE</p>
+        <h2 id="titulo-hobbies">Coisas de que gosto</h2>
+      </div>
+      <ul class="grade-hobbies">
+        <li class="cartao hobby-destaque">
+          <img src="assets/caminhada.svg" alt="Ilustração de uma pessoa caminhando em uma trilha entre montanhas">
+          <div><span class="numero">01</span><h3>Caminhar ao ar livre</h3><p>Explorar novos caminhos e recarregar as energias.</p></div>
+        </li>
+        <li class="cartao hobby-menor"><span class="icone" aria-hidden="true">♫</span><span class="numero">02</span><h3>Ouvir música</h3><p>Uma boa trilha sonora para qualquer momento.</p></li>
+        <li class="cartao hobby-menor"><span class="icone" aria-hidden="true">⌘</span><span class="numero">03</span><h3>Aprender tecnologia</h3><p>Descobrir como as ideias viram soluções.</p></li>
+      </ul>
+    </section>
+
+    <section class="secao viagens" aria-labelledby="titulo-viagens">
+      <div class="cabecalho-secao">
+        <p class="rotulo">PLANOS DE VIAGEM</p>
+        <h2 id="titulo-viagens">Três lugares que quero conhecer</h2>
+      </div>
+      <div class="tabela-rolagem">
+        <table>
+          <thead><tr><th scope="col">País</th><th scope="col">Bandeira</th></tr></thead>
+          <tbody>
+            <tr><td>Japão</td><td><img class="bandeira" src="https://flagcdn.com/w160/jp.png" alt="Bandeira do Japão" loading="lazy"></td></tr>
+            <tr><td>Itália</td><td><img class="bandeira" src="https://flagcdn.com/w160/it.png" alt="Bandeira da Itália" loading="lazy"></td></tr>
+            <tr><td>Canadá</td><td><img class="bandeira" src="https://flagcdn.com/w160/ca.png" alt="Bandeira do Canadá" loading="lazy"></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <p class="rotulo">PARA CONTINUAR EXPLORANDO</p>
+      <p>Gosto de acompanhar novidades e ideias sobre tecnologia.</p>
+      <a href="https://www.tecmundo.com.br/" target="_blank" rel="noopener noreferrer">Visite o TecMundo <span aria-hidden="true">↗</span></a>
+      <small>Feito com curiosidade por João Victor · 2026</small>
+    </footer>
+  </main>
+</body>
+</html>
+
